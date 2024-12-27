@@ -6,7 +6,6 @@ export default function Dynamo({ params }) {
     <div>{params.dynamic}</div>
   )
 }
-// this exists
 Dynamo.propTypes = {
   params: PropTypes.string.isRequired,
 }
